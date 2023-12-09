@@ -1,0 +1,27 @@
+#menuResponsive{
+    display:none;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    height: 6vh;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0;
+    z-index: 3;
+    backdrop-filter: blur(15px);
+  }
+
+  .logoNav{
+    height: 6vh;
+  }
+
+  .nav__ul{
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    
+  }

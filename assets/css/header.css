@@ -1,0 +1,57 @@
+.form--headerLabel{
+    display: block;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: end;
+}
+
+.imgSlider{
+    width: 100%;
+ 
+}
+
+.suscribe--header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    background-color: aqua;
+}
+
+.suscribe--header form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider--button {
+    position: absolute;
+    transform-origin: 50% 50%;
+    top: 50%;
+    border-radius: 50%;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    z-index: 10;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+    background-color: red;
+    /*color: var(--bg-secondary);*/
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .button__left {
+    left: 0;
+  }
+  
+  .button__rigth {
+    right: 0;
+  }
