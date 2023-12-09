@@ -7,7 +7,17 @@ const urlSlides=["../assets/img/header/cafe1.jpg","../assets/img/header/cafe2.jp
 
 
 
-setInterval(next,1000);
+setInterval(next,5000);
+
+function next(){
+  if (index<urlSlides.length-1){
+    index++;
+    document.querySelector(".imgSlider").src= `${urlSlides[index]}`;
+  }else{
+    document.querySelector(".imgSlider").src= `${urlSlides[0]}`;
+  }
+
+}
 
 
 
