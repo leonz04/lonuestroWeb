@@ -57,3 +57,19 @@ summary{
     align-items: center;
     justify-content: center;
 }
+
+@media (min-width:320px) and (max-width:424px){
+    .section__products{
+        width: 80%;
+    }
+    .products__ul{
+        display: block;
+    }
+
+    .products__li{
+        width: 100%;
+        margin: 5vh 0;
+
+    }
+
+}

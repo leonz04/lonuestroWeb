@@ -93,11 +93,10 @@
   color:var(--text);
 }
 
-@media (min-width:320px) and (max-width:425px) {
+@media (min-width:320px) and (max-width:424px) {
 
   .footer {
     width: 100%;
-    background-color: green;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 10px;
@@ -105,7 +104,6 @@
   }
 
   .footer--colum1 {
-    background-color: aquamarine;
     grid-column: 1;
     grid-row: 1/2;
     display: flex;
@@ -115,24 +113,20 @@
   }
 
   .footer--colum2 {
-    background-color: yellow;
     grid-column: 1;
     grid-row: 2/3;
   }
 
   .footer--colum3 {
-    background-color: aquamarine;
     grid-column: 1;
     grid-row: 3/4;
   }
 
   .footer--last {
-    background-color: aqua;
     grid-column: 1;
     grid-row: 4/5;
     height: 50px;
     text-align: center;
-    flex-wrap: wrap;
 
   }
   
