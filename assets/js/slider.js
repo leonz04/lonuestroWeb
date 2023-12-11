@@ -2,11 +2,11 @@ let index = 0
 const slides =5;
 const left = document.querySelector('.button__left')
 const rigth = document.querySelector('.button__rigth')
-const urlSlides=["../assets/img/header/cafe1.jpg","../assets/img/header/cafe2.jpg","../assets/img/header/cafe3.jpg","../assets/img/header/cafe4.jpg","../assets/img/header/cafe5.jpg"]
+const urlSlides=["../assets/img/header/cafe1.webp","../assets/img/header/cafe2.webp","../assets/img/header/cafe3.webp","../assets/img/header/cafe4.webp","../assets/img/header/cafe5.webp"]
 
 
 
-setInterval(next,3000);
+setInterval(next,4000);
 
 function next(){
   if (index<urlSlides.length-1){
